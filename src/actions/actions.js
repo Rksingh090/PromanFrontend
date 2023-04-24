@@ -1,6 +1,8 @@
 // api url 
-export const api = "http://localhost:5000/api"
-export const wsapi = "http://localhost:5000"
+export const api = "https://promanbackend1-rishabwsingh1234.b4a.run/api"
+export const wsapi = "https://promanbackend1-rishabwsingh1234.b4a.run"
+// export const api = "http://localhost:5000/api"
+// export const wsapi = "http://localhost:5000"
 
 // action types
 export const MAKE_REQUEST_BOARD = 'makeRequestBoard'
