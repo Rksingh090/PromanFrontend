@@ -1,0 +1,60 @@
+:root{
+    --warning: rgb(250, 215, 61);
+    --error: rgb(255, 42, 88);
+    --success: rgb(58, 204, 0);
+}
+.anWrapper{
+    position: absolute;
+    border-radius: 5px;
+    top: 25px;
+    right: 50px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 220px;
+    z-index: 854545;
+    overflow: hidden;
+}
+.anInner{
+    padding: 20px 30px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anInner p{
+    padding: 0;
+    color: white;
+    margin: 0;
+}
+.anTimerCounter{
+    position: absolute;
+    bottom: 0px;
+    /* background: linear-gradient(to left, red,blue); */
+    background-color: rgba(0, 0, 0, 0.26);
+    animation: animAn 5s linear 1;
+    width: 100%;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    height: 5px;
+}
+@keyframes animAn {
+    0%{
+    border-bottom-right-radius: 0px;
+      transform: translateX(0px);
+    }
+    100%{
+        border-bottom-right-radius: 0px;
+        transform: translateX(-105%);
+    }
+}
+
+.anClose{
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+    color: white;
+    right: 5px;
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+.makeConfirmationWrapper{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 44;
+    backdrop-filter: blur(2px) brightness(.7);
+    transition: all 4s linear;
+}
+.askforConfirmation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    z-index: 5554;
+    padding: 15px;
+    width: 300px;
+    border-radius: 3px;
+    height: 120px;
+}
+.confirmationText{
+    font-size: 18px;
+    color: rgb(43, 43, 43);
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.toolsBtn{
+    width: 100%;
+    text-align: center;
+}
+.confirmOk, .confirmCancle{
+    padding: 10px 20px;
+    font-weight: bolder;
+    margin: auto 10px;
+    outline: none;
+    font-size: 17px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 3px 0px rgba(187, 187, 187, 0.493);
+    transition: all .5s linear;
+}
+.confirmOk i, .confirmCancle i{
+    margin-left: 5px;
+}
+.confirmCancle{
+    background-color: rgb(185, 185, 185);
+}
+.confirmOk{
+    background-color: rgb(73, 85, 250);
+    filter: drop-shadow(5px);
+    color: rgb(243, 243, 243);
+}
+.confirmCancle:hover, .confirmOk:hover{
+    filter: opacity(.7);
+    box-shadow: 6px 6px 5px 2px rgba(175, 175, 175, 0.315);
+}

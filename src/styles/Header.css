@@ -1,0 +1,35 @@
+.HeaderContainer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(22, 37, 104);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.HeaderLogo{
+    padding-left: 10px;
+}
+.HeaderLogOut{
+    padding-right: 20px;
+    
+}
+.HeaderLogOut button{
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    padding: none;
+    border-radius: 2px;
+}
+.HeaderLogOut button:hover{
+    background-color: #ededef;
+}
+.BoardsHeader{
+    color: white;
+    font-family: 'Fira Code';
+    font-size: 18px;
+}
+.BrandName{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 16px;
+}

@@ -1,0 +1,68 @@
+.BNotificationsWrapepr{
+    background-color: #ecf0f3;
+  overflow-y: hidden;
+  padding: 0 20px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+  min-height: 100%;
+}
+.BNHeading{
+    width: 90%;
+    background-color: #ecf0f3;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+    .BNnotificationsItems{
+    display: grid;
+    grid-auto-columns: 1fr;
+    width: 90%;
+}
+
+.BNnotificationsItem{
+    padding: 20px 20px;
+    width: 100%;
+    margin: 7px auto;
+    background-color: #FFF;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.typeAddUser {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.typeAddUser span{
+    display: flex;
+    align-items: center;
+}
+.typeAddUser svg{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.typeAddUserAct{
+    padding-right: 10px;
+}
+.typeAddUserAct button{
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #d1d1d1;
+}
+.typeAddUserAct button:nth-child(1):hover{
+    background-color: rgba(122, 255, 122, 0.514);
+}
+.typeAddUserAct button:nth-child(2):hover{
+    background-color: rgba(255, 122, 122, 0.514);
+}

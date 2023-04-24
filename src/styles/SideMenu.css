@@ -1,0 +1,127 @@
+
+/* sidemenu  */
+.SideMenu{
+    position: fixed;
+    right: 0;
+    top: 43px;
+    margin-top: 5px;
+}
+
+.SideMenuContainer{
+    background-color: #F4F5F7;
+    width: 321px;
+    float: right;
+    height: 100vh;
+    top: 45px;
+    border-radius: 0;
+    position: fixed;
+    word-wrap: break-word;
+    z-index: inherit;
+    transition: right 0.7s ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.menuHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 13px;
+}
+.menuHeader h4{
+    padding-left: 15px;
+}
+.SideMenuCloseloseBtn{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+}
+.SideMenuCloseloseBtn i{
+    font-size: 18px;
+}
+.SideMenuCloseloseBtn:hover{
+    background-color: #7272723b;
+}
+
+.activityScroll{
+    overflow: auto;
+    height: 95vh;
+}
+
+/* activity  */
+
+.ActWrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    /* padding-left: 20px; */
+}
+.text{
+    font-size: 15px;
+    padding: 7px 10px;
+}
+.timestamp{
+    font-size: 10px;
+    margin-top: 5px;
+    color: "#637187";
+}
+.ActivityContainer{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.ActivityTitle{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #172B4D;
+    font-weight: bold;
+    font-size: 16px;
+    opacity: 0.9;
+}
+.faListUl{
+    color: #172B4D;
+    padding-left: 10px;
+    opacity: 0.8;
+}
+
+/* color picker */
+
+.FixedBGColorPicker{
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+
+.deleteBoardBtn, .changeBGBoardBtn{
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: start;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 4px 8px;
+    border-radius: 2px;
+    transition: all .3s linear;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+.deleteBoardBtn:hover, .changeBGBoardBtn:hover{
+    background-color: #a4a8be5b;
+}
+.bgHolder{
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin-right: 8px;
+}

@@ -1,0 +1,102 @@
+
+/* add friend and add board member */
+.settingsWrapper{
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    padding-bottom: 50px;
+    background-color: #ecf0f3;
+}
+.addFriendSection{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+
+.SelBRDOpt{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.boardsOptions{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    height: 100%;
+}
+.boardSelector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #788;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+}
+.inputRowSS{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 70%;
+    height: 100%;
+}
+.inputRowSS input[type="text"]{
+    width: 500px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 19px;
+    outline: none;
+    border: 1px solid #999;
+    padding: 0 15px;
+}
+.selectedDiv{
+    width: 500px;
+    height: 50px;
+    box-sizing: border-box;
+    font: 16px;
+    padding: 0 15px;
+    line-height: 50px;
+    border: 1px solid #888;
+    cursor: text;
+}
+.inputRowSS input[type="button"], .FriendSubmit{
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    font: 16px;
+    cursor: pointer;
+}
+.allUserMap{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.allUsers{
+    width: 500px;
+    background-color: #eceff3;
+    transform: translateY(-0px);
+    cursor: pointer;
+}
+.allUsers:not(:nth-child(1)){
+    border-top: 1px solid rgb(150, 150, 150);
+}
+.allUsers p{
+    padding: 7px 10px;
+    margin: 0;
+}
+
